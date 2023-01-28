@@ -1,0 +1,21 @@
+NET "Clock" TNM_NET = "Clock";
+TIMESPEC TS_Clock = PERIOD "Clock" 41.666 ns HIGH 50 %;
+NET "Clock" LOC = P50;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2022/04/26
+NET "mosi" LOC 	= P111; #SPIDATA
+NET "cs" LOC 		= P112; #SPILE
+NET "sck" LOC 		= P114; #SPICLK
+
+
+# active-low USER_PB button
+NET "send" LOC = P133;
+
+
+NET "USER_LED" LOC = P88;
+
+# PlanAhead Generated IO constraints 
+
+NET "cs" IOSTANDARD = LVCMOS33;
+NET "mosi" IOSTANDARD = LVCMOS33;
+NET "sck" IOSTANDARD = LVCMOS33;
+NET "send" IOSTANDARD = LVCMOS33;

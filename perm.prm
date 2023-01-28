@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o F:\Edu\FPGA\alireza_project\RTC6701_spi_controller//perm -s 8192 -u 0000 F:/Edu/FPGA/alireza_project/RTC6701_spi_controller/top.bit -spi 
+
+PROM F:\Edu\FPGA\alireza_project\RTC6701_spi_controller\perm.prm map: Sat Nov 26 00:04:27 2022
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          8192K
+PROM start    0000:0000
+PROM end      007f:ffff
+PROM checksum 7a58a301
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:32bf     Nov 26 00:03:20 2022 F:/Edu/FPGA/alireza_project/RTC6701_spi_controller/top.bit

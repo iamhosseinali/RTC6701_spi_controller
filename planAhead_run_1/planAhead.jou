@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Nov 25 23:15:20 2022
+# Process ID: 3360
+# Log file: F:/Edu/FPGA/alireza_project/RTC6701_spi_controller/planAhead_run_1/planAhead.log
+# Journal file: F:/Edu/FPGA/alireza_project/RTC6701_spi_controller/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/Edu/FPGA/alireza_project/RTC6701_spi_controller/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list cs]]
+set_property iostandard LVCMOS33 [get_ports [list mosi]]
+set_property iostandard LVCMOS33 [get_ports [list sck]]
+set_property iostandard LVCMOS33 [get_ports [list send]]
+save_constraints

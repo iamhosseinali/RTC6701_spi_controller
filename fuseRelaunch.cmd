@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "F:/Edu/FPGA/alireza_project/RTC6701_spi_controller/testbench_isim_beh.exe" -prj "F:/Edu/FPGA/alireza_project/RTC6701_spi_controller/testbench_beh.prj" "work.testbench" 
